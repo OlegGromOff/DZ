@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  padding: 15px;
+  background-color: #2fa1d6;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #03c4eb;
+}
+
+.addBtn {
+  margin-top: 20px;
+}
+
+.person img {
+  border: 1px solid grey;
+}
+
+.favoriteHero {
+  margin-bottom: 20px;
+}
