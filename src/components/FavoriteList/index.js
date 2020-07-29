@@ -14,7 +14,7 @@ const putStateToProps = (state) => { // передаю в пропс состо�
 
 const putActionsToProps = { removeFromList };
 
-export default connect( // генерирую контейнеры, воспользовавшись функцией connect()  (аналог store.subscribe() )
+export default connect( // генерирую контейнеры, воспользовавшись функцией connect()  (аналог store.subscribe() ), создаю компонент обертку <Connect/>
   putStateToProps,
   putActionsToProps
 )(FavoriteListContainer);
