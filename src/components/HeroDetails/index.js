@@ -38,7 +38,7 @@ export function Hero({ list, user, addToList }) {
       </div>
       <button className="addBtn"
         onClick={() => {
-          const isInList = list.find((item) => (item.id = user.id));
+          const isInList = list.find((item) => (item.id == user.id));
           !isInList && addToList(user);
         }}
       >
